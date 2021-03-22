@@ -7,7 +7,7 @@ edition = "2018"
 [features]
 default = []
 services = ["tonic-build", "tonic"]
-deserailizers = ["byteorder","base64", "bs58"]
+json_serde = ["byteorder","base64", "bs58"]
 
 [dependencies]
 tonic = {version = "0.4", optional = true}
